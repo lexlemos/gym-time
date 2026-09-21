@@ -1,15 +1,13 @@
 # Gym Time ⚡️
 
-A frictionless, role-based scheduling SaaS prototype designed to solve "cancellation chaos" and automate schedule management for gym owners and students.
-
-Built as part of the Product Engineer Internship selection process for **KIS Solutions**.
+A frictionless scheduling prototype designed to solve "cancellation chaos" and automate schedule management for gym owners and students.
 
 ## 🎯 The Core Problem & Solution
 Gym owners often waste hours manually managing schedules, dealing with last-minute cancellations, and tracking class capacities across multiple channels (WhatsApp, spreadsheets). 
 
 **Gym Time** solves this by providing a unified, automated calendar grid where:
 1. **Students** can book or cancel classes with zero friction.
-2. **Admins** have a pre-populated schedule to manage exceptions (like closing a day or changing a class type) rather than creating every single slot manually.
+2. **Admins** have a pre-populated schedule to manage exceptions and easily manage the training calendar for a large number of students.
 
 ## ✨ Key Product Features
 * **Role-Based Architecture:** Seamless toggle between Student (booking UI) and Admin (management UI) with distinct visual themes to reduce cognitive load.
@@ -19,6 +17,7 @@ Gym owners often waste hours manually managing schedules, dealing with last-minu
 * **Smart Navigation:** Date picker and weekly pagination capped at a 1-month future window to match standard gym billing/scheduling cycles.
 
 ## 🛠️ Tech Stack
+* **Built with v0**
 * **Framework:** [Next.js](https://nextjs.org/) (App Router)
 * **Library:** React
 * **Styling:** Tailwind CSS
@@ -58,26 +57,4 @@ npm run dev
 
 5. Open [http://localhost:3000](http://localhost:3000?utm_source=gemini) in your browser to view the application.
 
-## 🧠 Ambiguities & Future Scope (V2)
-
-During the discovery phase, a few business rules were mapped for future validation:
-
-* **Waitlists:** Automated notification for the next user in line when a fully booked class gets a cancellation.
-* **Cancellation Policies:** Locking cancellations X hours before a class to prevent empty slots.
-* **Payment Gateway:** Checking active subscription status before enabling the booking button.
-
-```
-
-***
-
-### Como subir o README para o GitHub:
-
-Já que o seu terminal já está configurado e conectado ao repositório, basta rodar estes 3 comandos para enviar essa atualização:
-
-```bash
-git add README.md
-git commit -m "docs: add comprehensive project README"
-git push
-
-```
 
