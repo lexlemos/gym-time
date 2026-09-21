@@ -60,5 +60,5 @@ npm run dev
 ## Live Demo
 
 If you prefer not to install the project locally, you can access the fully functional deployed version here:
-[Try Gym Time Live](https://gym-time-kx4k7ii9l-lexlemos-projects.vercel.app/?utm_source=gemini)
+[Try Gym Time Live](https://gym-time-kx4k7ii9l-lexlemos-projects.vercel.app)
 
